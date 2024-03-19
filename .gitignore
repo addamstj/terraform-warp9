@@ -1,4 +1,5 @@
 .terraform
 terraform.tfstate
 terraform.tfstate.*
+.terraform.lock.hcl
 backup

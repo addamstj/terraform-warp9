@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_db_instance" "myRDS" {
-    name = "myDB"
+    db_name = "myDB"
     identifier = "my-first-rds"
     instance_class = "db.t2.micro"
     engine = "mariadb"
